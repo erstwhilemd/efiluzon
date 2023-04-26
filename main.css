@@ -1,0 +1,51 @@
+html {
+    box-shadow: 0 0 0 30px #fafa inset;
+    padding: 0;
+    margin: -10px;
+}
+
+.body {
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+}
+
+.lion {
+    box-shadow: 2px, 2px, 2px, rgba(155, 10, 10, .8);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width:  100vw;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+}
+
+.head_shot {
+    display: inline-block;
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin: 50px;
+    
+}
+
+.Team {
+    background-color: black;
+    color: orange;
+    position: relative;
+}
+
+.paragraph p {
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-color: black;
+    text-align: center;
+    display: block;
+    position: relative;
+    color: orange;
+    text-transform: capitalize;
+    margin-top: 50px;
+
+
+}
